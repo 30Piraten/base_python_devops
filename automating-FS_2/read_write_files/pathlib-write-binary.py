@@ -1,0 +1,12 @@
+import pathlib
+
+bin_file = b"""
+01001000 01100101 01101100 01101100 01101111 00101100 00100000 01010111 01101111 01110010 01101100 01100100 
+01001111 01110000 01100101 01101110 01000001 01001001
+"""
+
+path = pathlib.Path("sp.bin")
+
+result = path.write_bytes(bin_file)
+
+print(f"File written to {result}")

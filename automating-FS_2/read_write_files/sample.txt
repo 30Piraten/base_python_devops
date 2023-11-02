@@ -1,0 +1,4 @@
+spam = 42 # global variable
+sometimes, your life becomes clear when you understand that you are alone. This perspective is very important
+
+

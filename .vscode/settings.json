@@ -1,0 +1,15 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none",
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/ansible.json#/$defs/playbook": "file:///d%3A/py-devops/automating-FS/config.yml"
+    },
+    "ansible.python.interpreterPath": "d:\\py-devops\\.venv\\Scripts\\python.exe",
+    "cSpell.words": [
+        "childs",
+        "fernet"
+    ]
+}
