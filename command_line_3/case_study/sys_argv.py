@@ -14,8 +14,8 @@ if __name__ == "__main__":
     client = "Administrator"
     # Here, user is None to avoid name || prompt error
     # when passed to cli function.
-    # can also equate user to be "Administrator
-    # as default || set as None"
+    # we can also equate user to be "Administrator"
+    # as default || set as None
     user = None  # Administrator
 
     if "--help" in sys.argv:
