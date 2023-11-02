@@ -21,7 +21,7 @@ if __name__ == "__main__":
         sys.exit(0)
 
     if "--prompt" in sys.argv:
-        # check if there enough arguments after "--prompt"
+        # check if there's enough arguments after "--prompt"
         index_of_prompt = sys.argv.index("--prompt") + 1
         if index_of_prompt < len(sys.argv):
             user = sys.argv[index_of_prompt]
