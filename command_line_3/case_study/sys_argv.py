@@ -3,9 +3,7 @@ import sys
 # script that prints "command line" to the console
 # only when run from the command line
 
-# define a function for this
-
-
+# define CLI a function:
 def cli(text, client):
     send_message = f"{text} {client}"
     print(send_message)
