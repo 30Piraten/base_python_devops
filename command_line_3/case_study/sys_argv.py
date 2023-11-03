@@ -5,14 +5,14 @@ import sys
 # -- added client "--prompt"
 
 
-def cli(text, client):
-    send_message = f"{text} {client}"
+def cli(text, role):
+    send_message = f"{text} {role}"
     return send_message
 
 
 if __name__ == "__main__":
     text = "Command Line"
-    client = "Administrator"
+    role = "Administrator"
     user = None  # Default value
 
     if "--help" in sys.argv:
