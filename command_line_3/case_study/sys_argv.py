@@ -16,8 +16,8 @@ if __name__ == "__main__":
     user = None  # Default value
 
     if "--help" in sys.argv:
-        help = f"Usage: {sys.argv[0]} --prompt <ROLE>"
-        print(help)
+        help_message = f"Usage: {sys.argv[0]} --prompt <ROLE>"
+        print(help_message)
         sys.exit(0)
 
     if "--prompt" in sys.argv:
