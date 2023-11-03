@@ -31,3 +31,8 @@ if __name__ == "__main__":
 
     result = cli(text, user)
     print(result)
+
+
+# Usage:
+# python3 sys_argv.py --help
+# python3 sys_arrgv.py --prompt <Enter role>
