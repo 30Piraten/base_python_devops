@@ -9,7 +9,7 @@ IOPS is stands for "input output operations per second", and its used to measure
 
 # Name a limitation with *fdisk* for creating partitions that *parted* doesn't have:
 
-- fdisk is the default way to create partitions, but it doesn't work well with large files. In this case, parted is used. 
+- *fdisk* is the default way to create partitions, but it doesn't work well with large files. In this case, *parted* is used. 
 
 # Name three tools that can provide disk information:
 - IOPS
